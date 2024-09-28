@@ -103,9 +103,11 @@ a {
   text-transform: uppercase;
   width: 350px;
 }
+
 /* ---------- Headline section components finish ---------- */
 
 /* ---------- News section components start ---------- */
+
 .news {
   padding: 90px 0 150px;
 }
@@ -141,6 +143,7 @@ a {
 /* ---------- News section components finish ---------- */
 
 /* ---------- Color section components start ---------- */
+
 .color {
   padding-bottom: 150px;
 }
@@ -165,6 +168,73 @@ a {
   font-weight: 700;
   line-height: 26px;
 }
+
 /* ---------- Color section components finish ---------- */
 
+/* ---------- Contacts section components start ---------- */
+
+.contacts-inner {
+  background-color: #574b63;
+  color: #fff;
+  display: flex;
+}
+
+.contacts-form {
+  padding: 140px 45px;
+  text-align: center;
+  width: 100%;
+}
+
+.contacts-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 60px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.contacts-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.contacts-input::placeholder {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 0.5;
+}
+
+.contacts-form p {
+  margin: 30px 0;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.contacts-form button {
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  color: #490e84;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 16px 80px;
+  text-transform: uppercase;
+}
+
+/* ---------- Contacts section components finish ---------- */
+
 /* ---------- Main components finish ---------- */
+
+/*---------------------------------------------------*/
+
+/* ---------- Footer components start ---------- */
+/* ---------- Footer components finish ---------- */
