@@ -46,14 +46,20 @@ a {
 }
 
 .menu {
-  align-items: center;
   display: flex;
-  justify-content: space-between;
+  flex-basis: 0;
+  flex-grow: 1;
   gap: 30px;
 }
 
 .menu-item {
   list-style-type: none;
+}
+
+.phone {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
 }
 
 /* ---------- Header components finish ---------- */
@@ -98,5 +104,41 @@ a {
   width: 350px;
 }
 /* ---------- Headline section components finish ---------- */
+
+/* ---------- News section components start ---------- */
+.news {
+  padding: 90px 0 150px;
+}
+
+.news-title {
+  color: #717171;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.news-info {
+  align-items: center;
+  display: flex;
+  gap: 190px;
+}
+
+.news-text p {
+  margin: 0 0 30px;
+  max-width: 560px;
+}
+
+.news-text p:nth-child(4) {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.news-img {
+}
+/* ---------- News section components finish ---------- */
 
 /* ---------- Main components finish ---------- */
