@@ -110,7 +110,8 @@ a {
   padding: 90px 0 150px;
 }
 
-.news-title {
+.news-title,
+.color-title {
   color: #717171;
   font-size: 32px;
   font-weight: 700;
@@ -137,8 +138,33 @@ a {
   line-height: 26px;
 }
 
-.news-img {
-}
 /* ---------- News section components finish ---------- */
+
+/* ---------- Color section components start ---------- */
+.color {
+  padding-bottom: 150px;
+}
+
+.color-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  text-align: center;
+}
+
+.color-item {
+  list-style-type: none;
+}
+
+.color-item img {
+  margin-bottom: 20px;
+}
+
+.color-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+/* ---------- Color section components finish ---------- */
 
 /* ---------- Main components finish ---------- */
