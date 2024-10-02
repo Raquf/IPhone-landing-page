@@ -1,1 +1,1 @@
-![Image alt](https://github.com/Raquf/Lisbon-Chair-landing-page/blob/main/Lisbon%20Chair%20image.png)
+![Image alt](https://github.com/Raquf/IPhone-landing-page/blob/main/IPhone%2014.png)
